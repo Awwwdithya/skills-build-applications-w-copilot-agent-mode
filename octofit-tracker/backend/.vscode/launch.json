@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch React Frontend",
+      "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "env": {
+        "REACT_APP_CODESPACE_NAME": "${env:CODESPACE_NAME}"
+      },
+      "port": 3000
+    }
+  ]
+}
